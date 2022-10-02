@@ -1,0 +1,55 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body
+{
+    background-color: rgb(118, 118, 233);
+}
+
+#barraLateral
+{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background-color: rgb(27, 27, 44);
+
+}
+
+#titulo
+{
+    background-color: rgb(27, 27, 44);
+    text-align: center;
+    color: yellow;
+    border: 1px;
+}
+
+#barraLateral nav a
+{
+    display: block;
+    color:  rgb(127, 127, 175);
+    text-align: center;
+    padding: 15px 10px;
+    border-bottom: 1px solid rgba(100, 100, 100, .3);
+    text-decoration: none;
+}
+
+#login
+{
+    margin: 40px 250px;
+}
+
+#verLogin
+{
+    margin: 40px 250px;
+    font-size: 40px;
+    color: aquamarine;
+}
+
+#info
+{
+    margin: 40px 250px;
+}
